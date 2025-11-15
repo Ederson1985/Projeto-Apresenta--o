@@ -1,0 +1,35 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  height: 120px;
+
+  background-image: url(../../../images/pages/index/Capa-7.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  width: 80%;
+}
+
+.header-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.header-list {
+  display: flex;
+  gap: 60px;
+}
+
+.header-link {
+  font-size: 24px;  
+  
+  color: #fff;
+}
