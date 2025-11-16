@@ -1,21 +1,56 @@
 .hero-section{
+    height: 609px;
+    width: 100vw;
+    display: flow-root;
+    
+    background-image: url(../../../images/pages/index/wave\ \(1\).svg);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat:space;
 
 }
 
 .hero-presentation-card{
+    
+    height: 80%;
+    width: 80%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #d6d6d6;
 
 }
 
 .hero-content-wapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 100%;
 
 }
 
 .hero-photo{
+    height: 300px;
+    width: 300px;
 
+    border-radius: 50%;
 }
 
 .hero-content-text{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+    height: 100%;
+    width: 60%;
+    
 }
 
 .hero-title{
