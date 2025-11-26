@@ -1,6 +1,6 @@
 .hero-section{
     height: 609px;
-    width: 100vw;
+    width: 100%;
     display: flow-root;
     
     background-image: url(../../../images/pages/index/wave\ \(1\).svg);
