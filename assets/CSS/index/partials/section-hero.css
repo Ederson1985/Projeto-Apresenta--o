@@ -1,8 +1,10 @@
 .hero-section{
+    display: flow-root;
+
     height: 609px;
     width: 100%;
-    display: flow-root;
-    
+    padding-top: 120px;
+
     background-image: url(../../../images/pages/index/wave\ \(1\).svg);
     background-position: center;
     background-repeat:space;
@@ -57,4 +59,17 @@
 
 .hero-text{
 
+}
+
+.arrow-up-outline {
+    position: fixed;
+
+    left: 96%;
+    top: 90%;
+    width: 48px;
+    height: 48px;
+
+    border: 5px solid #000000;
+    border-radius: 10px;
+    filter: invert();
 }

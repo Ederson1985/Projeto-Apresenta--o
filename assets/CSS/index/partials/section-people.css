@@ -23,7 +23,6 @@
 
     margin: 200px auto 0;
     width:fit-content;
-
 }
 
 .card-item {
@@ -33,21 +32,16 @@
     
     width: fit-content;
     height: fit-content;
-
-
-    
 }
 
 .item-image-woman {
     width: 150px;
     height: 150px;
-    
 }
 
 .item-image-children {
     width: 100px;
     height: 150px;   
-
 }
 
 .item-image-yong {
@@ -57,6 +51,6 @@
 
 .list-item{
     font-size: 20px;
-    color: #fff;
-    
+    color: #fff;    
 }
+

@@ -2,8 +2,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  position: fixed;
 
   height: 120px;
+  width: 100%;
 
   background-image: url(../../../images/pages/index/Capa-7.png);
   background-position: bottom;
@@ -33,3 +35,4 @@
   
   color: #fff;
 }
+
