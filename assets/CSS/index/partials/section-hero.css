@@ -4,14 +4,12 @@
     display: flow-root;
     
     background-image: url(../../../images/pages/index/wave\ \(1\).svg);
-    /* background-size: cover; */
     background-position: center;
     background-repeat:space;
 
 }
 
 .hero-presentation-card{
-    
     height: 80%;
     width: 80%;
     padding: 20px;
