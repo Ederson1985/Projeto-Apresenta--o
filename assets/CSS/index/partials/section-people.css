@@ -1,56 +1,79 @@
-.people-section{
-    padding-bottom: 50px;
-    padding-top: 20px;
-    width: 100%;
-    height: auto;
+.people-section {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
 
-    background-image: url(../../../images/pages/index/Capa-7.png);
-    background-position: center;
-    background-size: cover;
+  background-image: url(../../../images/pages/index/Capa-7.png);
+  background-position: center;
+  background-size: cover;
 }
-.people-title{
-    margin: 0 auto 70px;
-    padding: 30px;
-    width:fit-content;
+.people-title {
+  margin: 0 auto 70px;
+  padding: 30px;
+  width: fit-content;
 
-    font-size: 32px;
-    color: #fff;
-    text-transform: uppercase;
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
 }
-.section-list{
-    display: flex;
-    gap: 60px;
+.section-list {
+  display: flex;
+  gap: 60px;
 
-    margin: 200px auto 0;
-    width:fit-content;
+  margin: 200px auto 0;
+  width: fit-content;
 }
 
 .card-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    width: fit-content;
-    height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: fit-content;
+  height: fit-content;
 }
 
 .item-image-woman {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .item-image-children {
-    width: 100px;
-    height: 150px;   
+  width: 100px;
+  height: 150px;
 }
 
 .item-image-yong {
-    width: 80px;
-    height: 150px;   
+  width: 80px;
+  height: 150px;
 }
 
-.list-item{
+.list-item {
+  font-size: 20px;
+  color: #fff;
+}
+
+@media (max-width: 1016px) {
+  .people-title {
+    text-align: center;
+  }
+}
+@media (max-width: 664px) {
+  .people-title {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .people-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 498px) {
+  .people-title {
     font-size: 20px;
-    color: #fff;    
+  }
 }
-
