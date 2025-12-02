@@ -7,7 +7,7 @@
   height: 120px;
   width: 100%;
 
-  background-image: url(../../../images/pages/index/Capa-7.png);
+  background-image: url(../../../images/pages/index/capa-header.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -23,6 +23,9 @@
 .header-logo {
   height: 100px;
   width: 100px;
+
+  border: 1px solid #fff;
+  border-radius: 12px;
 }
 
 .header-list {
@@ -31,8 +34,105 @@
 }
 
 .header-link {
-  font-size: 24px;  
-  
+  font-size: 24px;
+
   color: #fff;
+}
+
+.link-menu-outline {
+  display: none;
+}
+
+.menu-outline {
+  position: fixed;
+  display: none;
+  width: 48px;
+  height: 48px;
+
+  border: 5px solid #000000;
+  border-radius: 10px;
+  filter: invert();
+}
+
+.nav-dropdown {
+  display: none;
+  position: fixed;
+
+  height: fit-content;
+  width: fit-content;
+  left: 1px;
+  top: 250px;
+  padding: 15px;
+
+  background-color: transparent;
+  border: 3px solid #39D353;
+  backdrop-filter: blur(30px) contrast(40%);
+}
+
+.dropdown-item {
+  margin-bottom: 15px;
+}
+
+.dropdown-link {
+  font-size: 24px;
+  font-weight: bold;
+  
+  color: #000000;
+
+  transition: color 1.5s;
+}
+
+.dropdown-link:hover {
+  color: #39D353;
+}
+
+.close-outline {
+  position: relative;
+  display: block;
+
+  margin-bottom: 20px;
+  right: -83%;
+}
+
+
+.close-outline-image {
+  width: 36px;
+  height: 36px;
+
+  border: 5px solid #000000;
+  border-radius: 10px;
+}
+
+@media (max-width: 1030px) {
+  .header-list {
+    /* display: flex; */
+    gap: 30px;
+  }
+}
+
+@media (max-width: 935px) {
+  .header-list {
+    display: none;
+  }
+  .menu-outline {
+    display: inline;
+  }
+
+  .link-menu-outline {
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .link-menu-outline {
+   margin-right: 30px;
+  }
+
+
 }
 
