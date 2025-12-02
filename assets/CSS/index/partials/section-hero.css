@@ -58,7 +58,8 @@
 .arrow-up-outline {
   position: fixed;
 
-  left: 96%;
+  /* left: 90%; */
+  right: 35px;
   top: 90%;
   width: 48px;
   height: 48px;
@@ -90,6 +91,10 @@
   .hero-title {
     font-size: 28px;
   }
+
+  .arrow-up-outline {
+    right: 55px;    
+}
 }
 
 @media (max-width: 720px) {
@@ -128,4 +133,8 @@
     height: 220px;
     width: 220px;
   }
+
+   .arrow-up-outline {
+    right: 25px;    
+}
 }
