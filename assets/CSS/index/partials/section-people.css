@@ -70,10 +70,47 @@
   .people-title {
     font-size: 24px;
   }
+  .item-image-woman {
+    width: 120px;
+    height: 120px;
+  }
+
+  .item-image-children {
+    width: 80px;
+    height: 130px;
+  }
+  .item-image-yong {
+    width: 60px;
+    height: 120px;
+  }
 }
 
 @media (max-width: 498px) {
   .people-title {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 387px) {
+  .people-section {
+ background-repeat: round;
+}
+  
+  .section-list {
+    gap: 30px;
+  }
+
+  .item-image-woman {
+    width: 100px;
+    height: 100px;
+  }
+
+  .item-image-children {
+    width: 60px;
+    height: 110px;
+  }
+  .item-image-yong {
+    width: 40px;
+    height: 100px;
   }
 }
